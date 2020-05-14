@@ -1,18 +1,16 @@
-// TODO: modify the body object!
 let body = `
 <!doctype html>
 <html lang=en>
   <head>
     <meta charset=utf-8>
-    <title>Hi!</title>
+    <title>Hi from Deno!</title>
     <link rel="stylesheet" href="https://static.begin.app/starter/default.css">
     <link href="data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" rel="icon" type="image/x-icon">
   </head>
   <body>
 
     <h1 class="center-text">
-      <!-- ↓ Change "Hello world!" to something else and head on back to Begin! -->
-      Hello world!
+      This is great!
     </h1>
 
     <p class="center-text">
