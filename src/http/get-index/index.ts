@@ -10,7 +10,7 @@ let body = `
   <body>
 
     <h1 class="center-text">
-      This is great!
+      Honestly, this is really good. well done!
     </h1>
 
     <p class="center-text">
@@ -19,16 +19,17 @@ let body = `
 
   </body>
 </html>
-`
+`;
 
-export async function handler (req: object) {
+export async function handler(req: object) {
   return {
     headers: {
-      'content-type': 'text/html; charset=utf8',
-      'cache-control': 'no-cache, no-store, must-revalidate, max-age=0, s-maxage=0'
+      "content-type": "text/html; charset=utf8",
+      "cache-control":
+        "no-cache, no-store, must-revalidate, max-age=0, s-maxage=0",
     },
-    body
-  }
+    body,
+  };
 }
 
 // Example responses
