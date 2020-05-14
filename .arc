@@ -3,6 +3,7 @@ begin-app
 
 @http
 get /
+get /contact
 
 @tables
 data
